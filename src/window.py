@@ -3,7 +3,7 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt
 
-from graphs import Graphs
+from graph_panel import GraphPanel
 from logger import Logger
 from expanded_panel import ExpandedPanel
 
@@ -28,7 +28,7 @@ class Window(QtWidgets.QWidget):
 
     def windowComponents(self):
         # Window areas
-        graphs = Graphs()
+        graphs = GraphPanel()
         logger = Logger()
         expanded_panel = ExpandedPanel()
 
