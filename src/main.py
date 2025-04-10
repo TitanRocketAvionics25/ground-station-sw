@@ -2,11 +2,14 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication
+from window import Window
 
 def run():
     """Sets up the application."""
     
-    app = QApplication
+    app = QApplication([])
+
+    window = Window()
 
     # Run Qt event loop
     sys.exit(app.exec())
