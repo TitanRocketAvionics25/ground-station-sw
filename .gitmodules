@@ -1,0 +1,6 @@
+[submodule "tools/command-line-stm32f4"]
+	path = tools/command-line-stm32f4
+	url = https://github.com/dylanR33/command-line-stm32f4.git
+[submodule "src/drivers/sx127x"]
+	path = src/drivers/sx127x
+	url = https://github.com/TitanRocketAvionics25/sx127x.git
